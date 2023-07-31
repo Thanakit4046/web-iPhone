@@ -1,0 +1,18 @@
+.box{
+    width: 350px;
+    margin: 2rem auto;
+    height: 50px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  template{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    margin-top: -11px;
+    font-size: 20px;
+    line-height: 1;
+    color: #0071e3;
+    pointer-events: none;
+  }
