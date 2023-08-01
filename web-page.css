@@ -9,6 +9,7 @@ html {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
   overflow: hidden;
   border-radius: 19px;
+
 }
 
 .img-apple {
@@ -25,5 +26,10 @@ html {
 }
 .h {
     text-align: center;
+}
+
+.choose {
+  display: inline-block;
+  
 }
 
