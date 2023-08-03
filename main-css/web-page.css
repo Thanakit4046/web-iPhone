@@ -24,6 +24,9 @@ html {
   border-radius: 19px;
 }
 
+.name-store{
+  margin: 0 auto;
+}
 .img-icons img {
   width: 72px;
   height: 72px;
@@ -31,12 +34,5 @@ html {
   border-radius: 19px;
   
 }
-.h {
-    text-align: center;
-}
 
-.choose {
-  display: inline-block;
-  
-}
 
