@@ -33,6 +33,7 @@ nav{
 }
 article {
     text-align: center;
+    
 }
 
 aside {
@@ -44,6 +45,8 @@ aside {
 }
 
 .choose {
+  width: 200px;
+  flex-direction: column;
   display: flex;
   justify-content: center;
 }
