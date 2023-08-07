@@ -36,8 +36,15 @@ article {
 }
 
 aside {
+  width: 0 auto;
+  height: 72px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
   display: flex;
   justify-content: center;
 }
 
+.choose {
+  display: flex;
+  justify-content: center;
+}
 
