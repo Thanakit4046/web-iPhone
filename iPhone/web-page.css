@@ -3,20 +3,21 @@ html {
     width: 100%;
   }
 nav{
-  width: 1820px;
+  width: 0 auto;
   margin: 0 auto;
-  height: 72px;
+  height: 100px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
   overflow: hidden;
   border-radius: 19px;
 
 }
+
 .img-apple {
   height: 72px;
   background: gray;
   overflow: hidden;
-
 }
+
 .img-apple img { 
   width: 72px;
   height: 72px;
@@ -38,7 +39,7 @@ article {
 
 aside {
   width: 0 auto;
-  height: 72px;
+  height: 90px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
   display: flex;
   justify-content: center;
@@ -51,3 +52,7 @@ aside {
   justify-content: center;
 }
 
+.selector-dropdown {
+  height: 20px;
+  width: 100%;
+}
