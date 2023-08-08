@@ -51,6 +51,11 @@ aside {
 }
 
 .selector-dropdown {
-  height: 20px;
-  width: 100%;
+  position: relative;
+  background: #fff;
+  border: 1px solid #e8e8ed;
+  border-radius: 5px;
+  transition: border-color 200ms ease;
 }
+
+
