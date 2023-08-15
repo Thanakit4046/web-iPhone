@@ -1,0 +1,16 @@
+.box{
+    width: 0 auto;
+    height: 2000px;
+    box-shadow:2px  rgba(0, 0, 0, 0.2) ;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    background: #adadad;
+}
+
+.icon-cross img {
+    width: 35px;
+    height: 35px;
+}

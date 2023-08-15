@@ -37,8 +37,8 @@ article {
 
 aside {
   width: 0 auto;
-  height: 90px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
+  height: 900px;
+  box-shadow: 2px 2px 5px rgba(29, 29, 31, 0.2) ;
   display: flex;
   justify-content: center;
 }
@@ -46,8 +46,16 @@ aside {
 .choose {
   width: 200px;
   flex-direction: column;
-  display: flex;
-  justify-content: center;
+  display: block;
+  top: 30px;
+  
+}
+
+.choose .selector-element{
+  position: absolute;
+  top: 200px;
+  right: auto;
+
 }
 
 .selector-dropdown {
@@ -57,5 +65,4 @@ aside {
   border-radius: 5px;
   transition: border-color 200ms ease;
 }
-
 
