@@ -1,17 +1,92 @@
 .box{
     width: 0 auto;
-    height: 2000px;
-    box-shadow:2px  rgba(0, 0, 0, 0.2) ;
+    height: 200000px;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.2) ;
+    background: rgb(255, 255, 255);
 }
 
-.icon{
-    width: 70px;
-    height: 70px;
-    background: #adadad;
+.icon-cross{
+    display: flex;
+}
+
+.icon-cross h1 {
+    display: flex;
+    margin: auto;
 }
 
 .icon-cross img {
     width: 35px;
     height: 35px;
+    
+}
+
+.box1 {
+    display: flex;
+
+
+    >.box-iphone-14Promax {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: gray;
+    
+    }
+
+    .img-14Promax img {
+        width: 250px;
+        height: 250px;
+        margin: auto auto;
+        display: block;
+        
+    
+    }
+    .box-iphone-14Promax h1{
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+.box-iphone-14Pro {
+    width: 500px;
+    margin: 2rem auto;
+    height: 1000px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+    overflow: hidden;
+    border-radius: 50px;
+
+}
+.img-14Pro{
+    height: 250px;
+    background: white;
+}
+.img-14Pro img {
+    width: 100%;
+
+}
+
+
+.box-iphone-14 {
+    width: 500px;
+    margin: 2rem auto;
+    height: 1000px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+    overflow: hidden;
+    border-radius: 50px;
+
+}
+.img-14{
+    height: 250px;
+    background: white;
+}
+.img-14 img {
+    width: 100%;
+
 }
 
