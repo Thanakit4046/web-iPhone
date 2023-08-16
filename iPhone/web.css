@@ -1,8 +1,9 @@
 .box{
     width: 0 auto;
-    height: 200000px;
+    height: 6450px;
     box-shadow:3px 3px 10px rgba(0, 0, 0, 0.2) ;
-    background: rgb(255, 255, 255);
+    background: rgb(178, 178, 178);
+    border-radius: 25px;
 }
 
 .icon-cross{
@@ -11,94 +12,28 @@
 
 .icon-cross h1 {
     display: flex;
-    margin: auto;
+    margin:  auto;
+    font-family: 'Itim', cursive;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Itim', cursive;
 }
 
 .icon-cross img {
     width: 35px;
     height: 35px;
-    
+    margin: 1rem;
 }
 
 .content{
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Itim', cursive;   
     
 }
 
-.box1 {
-    display: flex;
 
 
-    >.box-iphone-14Promax {
-        width: 500px;
-        margin: 2rem auto;
-        height: 1000px;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
-        overflow: hidden;
-        border-radius: 50px;
-        background: gray;
-    
-    }
 
-    .img-14Promax img {
-        width: 250px;
-        height: 250px;
-        margin: auto auto;
-        display: block;
-        
-    
-    }
-    .box-iphone-14Promax h1{
-        text-align: center;
-    }
-
-    .box-iphone-14Pro {
-        width: 500px;
-        margin: 2rem auto;
-        height: 1000px;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
-        overflow: hidden;
-        border-radius: 50px;
-        background: gray;
-    
-    }
-    
-    .img-14Pro img {
-        width: 250px;
-        height: 250px;
-        margin: auto auto;
-        display: block;
-    
-    }
-    
-    .box-iphone-14Pro h1 {
-        text-align: center;
-    }
-
-    .box-iphone-14 {
-        width: 500px;
-        margin: 2rem auto;
-        height: 1000px;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
-        overflow: hidden;
-        border-radius: 50px;
-        background: gray;
-    
-    }
-    
-    .img-14 img {
-        width: 250px;
-        height: 250px;
-        margin: auto auto;
-        display: block;
-    
-    }
-    
-    .box-iphone-14 h1 {
-        text-align: center;
-    }
-
-}
 
 
 

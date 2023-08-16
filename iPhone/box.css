@@ -1,0 +1,430 @@
+.box1 {
+    display: flex;
+
+
+    .box-iphone-14Promax {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-14Promax img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iphone-14Promax h1{
+        text-align: center;
+    }
+
+    .box-iphone-14Pro {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-14Pro img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iphone-14Pro h1{
+        text-align: center;
+    }
+
+    .box-iphone-14 {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-14 img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iphone-14 h1{
+        text-align: center;
+    }
+
+}
+
+.box2 {
+    display: flex;
+
+
+    .box-iPhone-14plus {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-14plus img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-14plus h1{
+        text-align: center;
+    }
+
+    .box-iPhone-13Pro {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-13Pro img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-13Pro h1{
+        text-align: center;
+    }
+
+    .box-iPhone-13ProMax {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-13ProMax img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-13ProMax h1{
+        text-align: center;
+    }
+
+
+}
+
+.box3 {
+    display: flex;
+
+
+    .box-iPhone-13mini {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-13mini img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-13mini h1{
+        text-align: center;
+    }
+
+    .box-iPhone13 {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-13 img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-13 h1{
+        text-align: center;
+    }
+
+    .box-iPhone-SE3 {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-SE3 img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-SE3 h1{
+        text-align: center;
+    }
+
+
+}
+
+.box4 {
+    display: flex;
+
+
+    .box-iPhone-12Pro {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-12Pro img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-12Pro h1{
+        text-align: center;
+    }
+
+    .box-iPhone-12ProMax {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-12ProMax img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-12ProMax h1{
+        text-align: center;
+    }
+
+    .box-iPhone-12mini{
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-12mini img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-12mini h1{
+        text-align: center;
+    }
+
+
+}
+
+.box5 {
+    display: flex;
+
+
+    .box-iPhone-12 {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-12 img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-12 h1{
+        text-align: center;
+    }
+
+    .box-iPhone-11Pro {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-11Pro img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-11Pro h1{
+        text-align: center;
+    }
+
+    .box-iPhone-11ProMax{
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-11ProMax img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-11ProMax h1{
+        text-align: center;
+    }
+
+
+}
+
+.box6 {
+    display: flex;
+
+
+    .box-iPhone-11 {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-11 img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-11 h1{
+        text-align: center;
+    }
+
+    .box-iPhone-SE2 {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .img-SE2 img {
+        width: 250px;
+        height: 250px;
+        margin: 2rem auto;
+        display: block;
+        
+    
+    }
+    .box-iPhone-SE2 h1{
+        text-align: center;
+    }
+
+}
