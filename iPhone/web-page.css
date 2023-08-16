@@ -33,16 +33,22 @@ nav{
 }
 
 article {
-    text-align: center;
-    
+  text-align: center;
+  width: auto;
+  height: 2000px;
+  background: #9c9c9c;
+  border-radius: 20px;
+}
+
+article .h1{
+  font-size: 200px;
 }
 
 aside {
-  width: 0 auto;
-  height: 900px;
-  box-shadow: 2px 2px 5px rgba(29, 29, 31, 0.2) ;
   display: flex;
   justify-content: center;
+
+
 }
 
 .choose {
