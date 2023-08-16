@@ -20,6 +20,11 @@
     
 }
 
+.content{
+    font-size: 16px;
+    
+}
+
 .box1 {
     display: flex;
 
@@ -47,46 +52,53 @@
         text-align: center;
     }
 
+    .box-iphone-14Pro {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: gray;
+    
+    }
+    
+    .img-14Pro img {
+        width: 250px;
+        height: 250px;
+        margin: auto auto;
+        display: block;
+    
+    }
+    
+    .box-iphone-14Pro h1 {
+        text-align: center;
+    }
+
+    .box-iphone-14 {
+        width: 500px;
+        margin: 2rem auto;
+        height: 1000px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
+        overflow: hidden;
+        border-radius: 50px;
+        background: gray;
+    
+    }
+    
+    .img-14 img {
+        width: 250px;
+        height: 250px;
+        margin: auto auto;
+        display: block;
+    
+    }
+    
+    .box-iphone-14 h1 {
+        text-align: center;
+    }
 
 }
 
 
-
-
-.box-iphone-14Pro {
-    width: 500px;
-    margin: 2rem auto;
-    height: 1000px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
-    overflow: hidden;
-    border-radius: 50px;
-
-}
-.img-14Pro{
-    height: 250px;
-    background: white;
-}
-.img-14Pro img {
-    width: 100%;
-
-}
-
-
-.box-iphone-14 {
-    width: 500px;
-    margin: 2rem auto;
-    height: 1000px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2) ;
-    overflow: hidden;
-    border-radius: 50px;
-
-}
-.img-14{
-    height: 250px;
-    background: white;
-}
-.img-14 img {
-    width: 100%;
-
-}
 

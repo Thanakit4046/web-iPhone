@@ -16,20 +16,22 @@ nav{
 
 }
 
+.img-apple {
+  width:  auto;
+  height: 72px;
+  border-radius: 35px;
+  background: rgb(0, 0, 0);
+}
+
 .img-apple img { 
   width: 72px;
   height: 72px;
   overflow: hidden;
   border-radius: 19px;
+  display: block;
+  margin: auto;
 }
 
-.img-icons img {
-  width: 65px;
-  height: 65px;
-  overflow: hidden;
-  border-radius: 19px;
-  
-}
 article {
     text-align: center;
     
