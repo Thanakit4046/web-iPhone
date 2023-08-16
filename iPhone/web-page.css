@@ -2,34 +2,24 @@ html {
     height: 100%;
     width: 100%;
   }
-nav{
+head{
   width: 0 auto;
-  margin: 0 auto;
   height: 72px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
   overflow: hidden;
   border-radius: 19px;
   justify-content: space-between;
   display: flex;
-  background: gray;
-  align-items: center;
-
-}
-
-.img-apple {
-  width:  auto;
-  height: 72px;
-  border-radius: 35px;
   background: rgb(0, 0, 0);
+  align-items: center;
+  margin: 1rem auto;
 }
 
 .img-apple img { 
   width: 72px;
   height: 72px;
   overflow: hidden;
-  border-radius: 19px;
-  display: block;
-  margin: auto;
+
 }
 
 article {
@@ -40,37 +30,16 @@ article {
   border-radius: 20px;
 }
 
-article .h1{
-  font-size: 200px;
+.headname{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 1rem auto;
 }
 
 aside {
   display: flex;
   justify-content: center;
-
-
 }
 
-.choose {
-  width: 200px;
-  flex-direction: column;
-  display: block;
-  top: 30px;
-  
-}
 
-.choose .selector-element{
-  position: absolute;
-  top: 200px;
-  right: auto;
-
-}
-
-.selector-dropdown {
-  position: relative;
-  background: #fff;
-  border: 1px solid #e8e8ed;
-  border-radius: 5px;
-  transition: border-color 200ms ease;
-}
 
