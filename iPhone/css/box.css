@@ -1,7 +1,8 @@
 .box1 {
     display: flex;
-
-
+    .content ul li{
+        padding: 0 7px;
+    }
     .box-iphone-14Promax {
         width: 500px;
         margin: 2rem auto;
@@ -76,7 +77,9 @@
 .box2 {
     display: flex;
 
-
+    .content ul li{
+        padding: 0 7px;
+    }
     .box-iPhone-14plus {
         width: 500px;
         margin: 2rem auto;
@@ -151,7 +154,9 @@
 
 .box3 {
     display: flex;
-
+    .content ul li{
+        padding: 0 7px;
+    }
 
     .box-iPhone-13mini {
         width: 500px;
@@ -227,7 +232,9 @@
 
 .box4 {
     display: flex;
-
+    .content ul li{
+        padding: 0 7px;
+    }
 
     .box-iPhone-12Pro {
         width: 500px;
@@ -303,7 +310,9 @@
 
 .box5 {
     display: flex;
-
+    .content ul li{
+        padding: 0 7px;
+    }
 
     .box-iPhone-12 {
         width: 500px;
@@ -379,7 +388,9 @@
 
 .box6 {
     display: flex;
-
+    .content ul li{
+        padding: 0 7px;
+    }
 
     .box-iPhone-11 {
         width: 500px;

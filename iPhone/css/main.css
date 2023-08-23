@@ -1,88 +1,148 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-* li{
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
 }
 
-* a{
-    text-decoration: none;
-}
-.container{
-    position: relative;
-    min-height: 100vh;
+* li {
+  list-style: none;
 }
 
-.bg{
-    width: 100%;
-    height: 100%;
-    position: relative;
+* a {
+  text-decoration: none;
 }
 
-.bg::after{
-    content:"";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% ;
-    height: 100%;
-    background-image: url(/img/bg/bg-apple.jpg);
-    z-index: -1;
-    background-size:cover;
-    background-position: center;
-    filter: brightness(88%);
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/bg/bg-apple.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(88%);
 
 }
+
 header {
-    position: relative;
-    width: 85%;
-    height: 15vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: relative;
+  width: 85%;
+  height: 15vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header a {
-    color: #000000;
-    font-size: 2.5rem;
-  }
-  
-   ul{
-    display: flex;
-    align-items: center;
-  }
-  
-   ul li a{
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    padding: 0 17px;
-    font-family: Arial;
-    font-weight: bold;
+  color: #000000;
+  font-size: 2.5rem;
 }
 
-li{
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li a {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  padding: 0 17px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+li {
+  position: relative;
+  display: block;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+li::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  transition: transfrom 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+  background-color: rgb(247, 247, 247);
+}
+
+li:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.content {
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.content .name,.box{   
+    width: 50%;
     position: relative;
-    display: block;
-    transition: 0.5s;
-    cursor: pointer;
-    
-  }
-  li::after{
-    position: absolute;
-    content:"";
-    width: 100%;
-    height: 3px;
-    top:100%;
-    left: 0;
-    transition: transfrom 0.5s;
-    transform: scaleX(0);
-    transform-origin: right;
-    background-color: rgb(247, 247, 247);
-  }
-  li:hover::after{
-    transform: scaleX(1);
-    transform-origin: left;
-  }
+}
+
+.content .name{
+  color: #ffffff;
+  padding: 15px;
+}
+
+.content .name h3 {
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+}
+
+.content .name h1 {
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+}
+.content .name p {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+
+.content .name h3 i {
+  color: #ffcc00;
+
+}
+
+.box{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:25px;
+}
+
+.box .box{
+  width: 100%;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  
+}
