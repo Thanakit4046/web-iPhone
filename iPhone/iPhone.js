@@ -11,7 +11,7 @@ function item1(a) {
     var select2 = document.getElementById("select2").value;
     if (a != select2) {
         document.getElementById("img1").src = product[a].image
-        document.getElementById("price1").innerHTML = "PKR " + product[a].price
+        document.getElementById("price1").innerHTML = " " + product[a].price
         document.getElementById("desc1").innerHTML = product[a].description
         document.getElementById("brand1").innerHTML = product[a].brand
 
@@ -29,7 +29,7 @@ function item2(a) {
     var select1 = document.getElementById("select1").value;
     if (a != select1) {
         document.getElementById("img2").src = product[a].image
-        document.getElementById("price2").innerHTML = "PKR " + product[a].price
+        document.getElementById("price2").innerHTML = " " + product[a].price
         document.getElementById("desc2").innerHTML = product[a].description
         document.getElementById("brand2").innerHTML = product[a].brand
     } else {
