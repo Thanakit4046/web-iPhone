@@ -13,14 +13,14 @@ function item1(a) {
         document.getElementById("img1").src = product[a].image
         document.getElementById("price1").innerHTML = " " + product[a].price
         document.getElementById("desc1").innerHTML = product[a].description
-        document.getElementById("brand1").innerHTML = product[a].brand
+        document.getElementById("CPU1").innerHTML = product[a].CPU
 
     } else {
         document.getElementById("select1").selectedIndex = 0;
         document.getElementById("img1").src = product[0].image
         document.getElementById("price1").innerHTML = ""
         document.getElementById("desc1").innerHTML = ""
-        document.getElementById("brand1").innerHTML = ""
+        document.getElementById("CPU1").innerHTML = ""
 
     }
 }
@@ -31,13 +31,13 @@ function item2(a) {
         document.getElementById("img2").src = product[a].image
         document.getElementById("price2").innerHTML = " " + product[a].price
         document.getElementById("desc2").innerHTML = product[a].description
-        document.getElementById("brand2").innerHTML = product[a].brand
+        document.getElementById("CPU2").innerHTML = product[a].CPU
     } else {
         document.getElementById("select2").selectedIndex = 0;
         document.getElementById("img2").src = product[0].image
         document.getElementById("price2").innerHTML = ""
         document.getElementById("desc2").innerHTML = ''
-        document.getElementById("brand2").innerHTML = ""
+        document.getElementById("CPU2").innerHTML = ""
 
     }
 }

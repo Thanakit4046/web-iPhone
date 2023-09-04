@@ -1,5 +1,4 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,38 +6,40 @@
 
 }
 
-* li{
+* li {
   list-style: none;
 }
 
-* a{
+* a {
   text-decoration: none;
 }
-.container{
+
+.container {
   position: relative;
   min-height: 100vh;
 }
 
-.bg{
+.bg {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.bg::after{
-  content:"";
+.bg::after {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% ;
+  width: 100%;
   height: 100%;
-  background-image: url(/img/bg/bg-apple.jpg);
+  background-image: url(/img/main/bg-apple.jpg);
   z-index: -1;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   filter: brightness(88%);
 
 }
+
 header {
   position: relative;
   width: 85%;
@@ -54,12 +55,12 @@ header a {
   font-size: 2.5rem;
 }
 
- ul{
+ul {
   display: flex;
   align-items: center;
 }
 
-ul li a{
+ul li a {
   color: rgb(0, 0, 0);
   font-size: 1rem;
   padding: 0 17px;
@@ -67,60 +68,59 @@ ul li a{
   font-weight: bold;
 }
 
-li{
+li {
   position: relative;
   display: block;
   transition: 0.5s;
   cursor: pointer;
-  
+
 }
-li::after{
+
+li::after {
   position: absolute;
-  content:"";
+  content: "";
   width: 100%;
   height: 3px;
-  top:100%;
+  top: 100%;
   left: 0;
   transition: transfrom 0.5s;
   transform: scaleX(0);
   transform-origin: right;
   background-color: rgb(247, 247, 247);
 }
-li:hover::after{
+
+li:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
 
-.img-apple img { 
+.img-apple img {
   width: 72px;
   height: 72px;
   overflow: hidden;
 
 }
 
-article {
-  text-align: center;
-  width: auto;
-  height: 2000px;
-  background: #ffffff;
+.boxA{
+  width: 700px;
+  margin: auto;
+  background:white;
   border-radius: 20px;
 }
 
-.headname{
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  margin: 1rem auto;
-}
-
-aside {
-  display: flex;
-  justify-content: center;
+article {
+  text-align: center;
+  width: auto;
+  height: 800px;
 }
 
 
 
-.table{
+.table {
+ 
   margin: 2rem auto;
 }
 
-
+.form-control2{
+  justify-content: space-evenly;
+}
