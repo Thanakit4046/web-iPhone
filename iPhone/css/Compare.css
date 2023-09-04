@@ -111,13 +111,15 @@ li:hover::after {
 article {
   text-align: center;
   width: auto;
-  height: 800px;
+  height: 700px;
 }
 
 
+.name h1 {
+  text-align: center
+}
 
 .table {
- 
   margin: 2rem auto;
 }
 
