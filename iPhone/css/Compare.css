@@ -108,6 +108,15 @@ li:hover::after {
   border-radius: 20px;
 }
 
+td>img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+th, td {
+  padding: 7px;
+}
+
 article {
   text-align: center;
   width: auto;
