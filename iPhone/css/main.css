@@ -194,7 +194,7 @@ li:hover::after {
     transition: .4s;
   }
 
-  .box-14pro:hover{
+  .box-14pro:hover {
     transform: translateY(-15px);
   }
 
@@ -214,7 +214,7 @@ li:hover::after {
     transition: .4s;
   }
 
-  .box-14promax:hover{
+  .box-14promax:hover {
     transform: translateY(-15px);
   }
 
